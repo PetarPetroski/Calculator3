@@ -9,7 +9,7 @@ load-plugins=pylint_django
 # Disable the following checks (example list):
 disable= unused-argument,
          line-too-long,
-         redefined-outer-name
+         redefined-outer-nametrailing-whitespace,missing-final-newline
 
 [REPORTS]
 # Set the output format. Available formats: text, parseable, colorized, json, msvs (visual studio) and html
@@ -51,4 +51,3 @@ method-rgx=[a-z_][a-z0-9_]{2,50}$
 module-rgx=[a-z_][a-z0-9_]{1,30}$
 
 # Class names
-
